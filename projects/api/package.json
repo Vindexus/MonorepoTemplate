@@ -4,7 +4,8 @@
   "name": "@monorepo/api",
   "scripts": {
     "start": "npx tsx src/index.ts",
-    "dev": "nodemon --ext .ts --exec yarn start"
+    "dev": "nodemon --ext .ts --exec yarn start",
+    "tsc": "tsc --noEmit"
   },
   "devDependencies": {
     "@types/node": "^20.11.25",

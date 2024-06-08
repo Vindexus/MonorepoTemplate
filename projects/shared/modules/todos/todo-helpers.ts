@@ -20,7 +20,7 @@ export function toggleTodoCompleted (todo: Todo) {
 	}
 }
 
-export function saveTodoLists (lists: TodoList[], _thingy: string) {
+export function saveTodoLists (lists: TodoList[]) {
 	fs.writeFileSync(todosJSONPath, JSON.stringify(lists, null, 2), 'utf8')
 	console.log('Wrote to JSON file:', todosJSONPath)
 }
