@@ -15,8 +15,7 @@
     "declaration": true,
     "baseUrl": "./",
     "paths": {
-      "@monorepo/consts/*": ["./lib/consts/*"],
-      "@monorepo/ui/*": ["./lib/ui/*"]
+      "@monorepo/*": ["projects/*"]
     }
   },
   "exclude": []

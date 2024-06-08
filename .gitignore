@@ -1,3 +1,5 @@
 node_modules/
 .env
 .idea
+projects/react/dist
+projects/shared/todos.json
