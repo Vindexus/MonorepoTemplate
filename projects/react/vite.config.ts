@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import tsconfigPaths from 'vite-tsconfig-paths'
 import pluginChecker from 'vite-plugin-checker';
+import tailwindcss from "tailwindcss";
 
 
 // https://vitejs.dev/config/

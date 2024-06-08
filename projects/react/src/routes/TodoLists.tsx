@@ -16,8 +16,10 @@ export default function TodoLists () {
 			{listsData.lists.length > 0 && (
 				<ul>
 					{listsData.lists.map(list => (
-						<li key={list.id}>
-							{list.title}
+						<li key={list.id} className={'flex'}>
+							<div className={'font-bold me-2'}>
+								{list.title}
+							</div>
 							<Link to={`/list/${list.id}`}>View</Link>
 						</li>
 					))}
